@@ -1,0 +1,1 @@
+document.getElementById('futureDate').textContent new Date() = document.lastModified;

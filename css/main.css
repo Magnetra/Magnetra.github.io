@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash|Courgette&display=swap");
+
+header {
+    background-color:#4CBFB9 ;
+    height: 75px;
+    text-align: center;
+}
+
+#profile {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    width: 35%;
+   
+}
+
+
+
+h1 {
+    font: outline;
+    font-family: 'Berkshire Swash', Arial, Helvetica, sans-serif;
+    font-size: 25px ;
+}
+
+h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 18 px;
+}
+
+body{
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    background-color: #000811;
+    color: #E6EDF2;
+    text-align: ;
+
+}
+
+footer {
+    background-color: #4CBFB9;
+    text-align: center;
+}
+
+
+body, header, footer {
+    max-width: 75%;
+    margin: 1.25rem auto;
+}  
