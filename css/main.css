@@ -7,19 +7,26 @@ header {
 }
 
 #profile {
-    position: absolute;
-    top: 10px;
-    right: 100px;
-    width: 35%;
+    float: right;
+  margin-top: 8px;
+  padding-right: 20px;
+  border-radius: 40%;
+  height: 155px;
    
 }
 
+h2, nav{
+    margin-left: 100px;
+}
 
+a{
+    color: #13EB1A ;
+}
 
 h1 {
     font: outline;
     font-family: 'Berkshire Swash', Arial, Helvetica, sans-serif;
-    font-size: 25px ;
+    font-size: 50px ;
 }
 
 h2 {
@@ -32,13 +39,15 @@ body{
     font-size: 16px;
     background-color: #000811;
     color: #E6EDF2;
-    text-align: ;
+    margin: auto;
+    display: block;
 
 }
 
 footer {
     background-color: #1B5A54;
     text-align: center;
+    font-size: small;
 }
 
 

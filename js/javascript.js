@@ -1,3 +1,7 @@
-const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-new Date() = document.lastModified('en-us', options)
-document.getElementById('futureDate').innerHTML = Date();
+let date = new Date();
+let year = date.getFullYear();
+
+let lastModify = document.lastModified;
+
+document.getElementById("currentyear").textContent = year;
+document.getElementById("lastmod").textContent = "Last Updated: " + lastModify;
