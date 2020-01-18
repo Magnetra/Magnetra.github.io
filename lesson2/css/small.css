@@ -76,3 +76,7 @@ body, header, footer {
     padding-bottom: 25px;
     padding-right: 3.2%;
   }
+
+  section li {
+    text-align: center;
+  }
