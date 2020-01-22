@@ -1,45 +1,105 @@
-nav ul { display: flex; }
-			nav ul li { flex: 1 1 100%; }
-	
 
-	
-			nav ul { 
-				display: flex;
-				grid-template-columns: repeat(5, 1fr); 
-				/*grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-			} */
-
-	 Inline-Block          
-	
-			nav {text-align: center;}
-            nav li {display: inline-block;}
-            
-     
-	
-
-	 Float                    
-	
-			nav li {float:left; margin-right:15px;}
-			main {clear:both;}
-	
-
-
-	
-	nav a {
-		font-size: 1rem;
-	}
-	main {
-		grid-template-columns: 1fr 1fr;
-	}
-	article:nth-child(3) {
-		grid-column: span 2;
-	}
-	main picture {
-		display: block;
-	}
-	main picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
+.font{
+	font-family: 'Merriweather', serif;
 }
+
+.sansfont{ 
+	font-family: 'Merriweather Serif', sans-serif;
+}
+
+#logo {
+	position: fixed;
+	top: 45px;
+	right: 0px;
+	z-index: +1;
+  }
+
+.fullwidth {
+	width: 100%;
+	height: auto;
+	align-content: center;
+	
+	padding-right: 10rem;
+  }
+  
+img {
+	max-width: 100%;
+	padding-left: 10rem;
+	
+  }
+
+body {
+    max-width: 960px;
+    font-family: 'Meriweather Serif', sans-serif;
+    
+    
+}
+
+p {
+    
+    color: #404040;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-left:10rem;
+    
+    
+}
+
+header {
+    text-align: center;
+    margin: auto;
+    padding: .5rem;
+    
+}
+
+h1 {
+    color: white;
+    background-color:#008080;
+    margin-left:10rem;
+    margin-right:4rem;
+    font-family: 'Montserrat', serif;
+}
+h2 {
+    font: #4c80b9;
+	margin-bottom: -1rem;
+	margin-left: 10rem;
+        
+}
+
+li{
+	float: left;
+}
+
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: #008080;
+	text-align: center;
+	font-family: 'Montserrat', serif;
+	
+}
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.25rem;
+}
+nav a:hover {
+	background-color: white;
+	color: #4c80b9;
+}
+.active {
+	color: #17c43c;
+}
+background{
+	color: #f8f8f8;
+}
+
