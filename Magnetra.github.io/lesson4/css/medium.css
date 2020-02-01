@@ -1,12 +1,30 @@
-@media only screen and (min-width:32.5em) {
+@media only screen and (min-width:36.5em) {
  
-    .bannerimage{
-        max-width: 1200;
+    #bannerImage{
+        width: 1200px;
+
+    }
+    h4{
+        font-size: 25px;
+        position: relative;
+        top: 1.5rem;
+        
     }
 
     .navigation li:first-child{
         display: none;
     }
+    .navigation {
+		display: flex;
+	}
+	
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: #ffff;
+	}
     
      .motto p {
          margin-top:-1rem;
@@ -14,31 +32,40 @@
      .forecast {
          display: flex;
          flex-direction: column;
-         max-height: 100px;
+         height: 100px;
+         width: 1000px;
          align-items: center;
          justify-content: center;
-         width: 12000px;
-         background-color: #080808;
-         align-content:center;
-         padding: 1rem 7rem;
+         background-color: #4c80b9;
          
+         padding: 1rem 7rem;
+         position: relative;
          border:1px solid #17244D;
-         margin:0 auto;
+        
          margin-bottom:1rem;
+         padding-bottom:.5rem;
+         top: 10px;
+         left: 10%;
+         right: 30px;
+            
+        }
+       
+            
                  
      }
      .forecast p {
          background-color: white;
          border: 1px solid  #17244D;
-         
          font-size:1.5rem;
          padding:.5rem;
          display: inline;
-         
-         
-         
+         text-align: center;
+         position: relative;
+         top: -29px;
  
      }
+
+    
      
      body {
          line-height:1.25rem;
@@ -48,7 +75,7 @@
    
          
     
-     .article {
+     article {
          display:inline-flex;
          flex-direction: row;
          min-height: 275px;
@@ -66,13 +93,14 @@
          width: 750px;
      }
      .articleimage {
-         width:500px;
-         align-self: right;
-         
-         margin-top: 35px;
-        margin-left: 760px;
-        margin-right: 15px;
+         width:400px;
+         position: absolute;
+         top: 905px;
+         left: 960px;
+         margin-right: 15px;
      }
+        
+    
      
      
      article h4 {
@@ -93,4 +121,3 @@
     .summary{
         left: 8 rem;
     }
-}
