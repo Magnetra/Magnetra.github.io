@@ -1,0 +1,102 @@
+@media only screen and (min-width: 60em) {
+    
+    #logo{
+        right: auto;
+        left: 25rem;
+    }
+    #motto{
+        left: 32rem;
+    }
+    h1{
+        left: 35rem;
+    }
+    .navigation {
+		display: flex;
+	}
+	
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: #ffff;
+	}
+    
+    .contactinfo img {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: start;
+        justify-self:center;
+       
+ 
+    }
+    .contactinfo  {
+        display: flex;
+        flex-direction: column;
+        margin-left:.25rem;
+        margin-right:.25rem;
+    }
+    
+
+    .forecast {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        background-color: #4c80b9;
+        align-content:center;
+        padding-bottom:.5rem;
+        top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    .forecast p {
+        background-color: #4c80b9;
+        border: 1px solid  #17244D;
+        margin-top: -1.5rem;
+        font-size:1.25rem;
+        
+    }
+
+    
+    article{
+        
+        left: 30px;
+        right: 30px;
+        background-color: #4c80b9;
+        height: 350px;
+        
+    }
+
+    
+
+    .articleimage{
+        max-width: 300px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 760px;
+        margin-right: 15px;
+        
+        
+    }
+
+    .summary {
+        top:2.5rem;
+        left:10.5rem;
+        margin:0 auto;
+        width:300px;
+        height:250px;
+        
+    }
+    .summary p {
+        
+        font-size: 2.5rem;
+        line-height:1.5;
+        margin: auto;
+    }
+        
+}
