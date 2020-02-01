@@ -1,0 +1,24 @@
+@media only screen and (min-width: 32.5em) {
+    #profile{
+    float: right;
+    border-radius: 0 10px 0 0;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    header, footer { 
+        border-radius: 10px;
+    }
+
+    main{   
+	grid-template-columns: 1fr 1fr;
+    }
+
+    
+}
