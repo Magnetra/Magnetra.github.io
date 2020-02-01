@@ -1,0 +1,96 @@
+@media only screen and (min-width:32.5em) {
+ 
+    .bannerimage{
+        max-width: 1200;
+    }
+
+    .navigation li:first-child{
+        display: none;
+    }
+    
+     .motto p {
+         margin-top:-1rem;
+     }
+     .forecast {
+         display: flex;
+         flex-direction: column;
+         max-height: 100px;
+         align-items: center;
+         justify-content: center;
+         width: 12000px;
+         background-color: #080808;
+         align-content:center;
+         padding: 1rem 7rem;
+         
+         border:1px solid #17244D;
+         margin:0 auto;
+         margin-bottom:1rem;
+                 
+     }
+     .forecast p {
+         background-color: white;
+         border: 1px solid  #17244D;
+         
+         font-size:1.5rem;
+         padding:.5rem;
+         display: inline;
+         
+         
+         
+ 
+     }
+     
+     body {
+         line-height:1.25rem;
+     }
+     
+     
+   
+         
+    
+     .article {
+         display:inline-flex;
+         flex-direction: row;
+         min-height: 275px;
+         padding:0 1.5rem;
+         width: 1200px;
+        left: 30px;
+        right: 30px;
+        background-color: #4c80b9;
+        height: 350px;
+        
+ 
+     }
+
+     .articleText{
+         width: 750px;
+     }
+     .articleimage {
+         width:500px;
+         align-self: right;
+         
+         margin-top: 35px;
+        margin-left: 760px;
+        margin-right: 15px;
+     }
+     
+     
+     article h4 {
+         margin-bottom:0;
+         font-weight: 300;
+     }
+     article p {
+         text-align:left;
+         margin-top: -.25rem;
+     }
+     .contactinfo  {
+         display: flexbox;
+         margin:0;
+         margin-bottom: -1rem;
+     }
+    
+
+    .summary{
+        left: 8 rem;
+    }
+}
