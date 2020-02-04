@@ -1,0 +1,51 @@
+@media only screen and (min-width: 60em) {
+    
+    #logo{
+        right: auto;
+        left: 25rem;
+    }
+    #motto{
+        left: 32rem;
+    }
+    h1{
+        left: 35rem;
+    }
+    
+    
+    .contactinfo img {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: start;
+        justify-self:center;
+       
+ 
+    }
+    .contactinfo  {
+        display: flex;
+        flex-direction: column;
+        margin-left:.25rem;
+        margin-right:.25rem;
+    }
+    
+
+   
+    
+
+    
+    article{
+        width: 1200px;
+        left: 30px;
+        right: 30px;
+        background-color: #4c80b9;
+        height: 320px;
+        margin-bottom: 30px;
+        
+    }
+
+    
+
+    
+
+    
+        
+}
