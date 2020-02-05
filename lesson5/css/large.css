@@ -11,7 +11,9 @@
         left: 35rem;
     }
     
-    
+    .col{
+        max-width: 200px;
+    }
     .contactinfo img {
         grid-column: 1;
         grid-row: 1;
@@ -26,22 +28,17 @@
         margin-left:.25rem;
         margin-right:.25rem;
     }
+
+    .summary{
+        left: 10rem;
+    }
     
 
    
     
 
     
-    article{
-        width: 1200px;
-        left: 30px;
-        right: 30px;
-        background-color: #4c80b9;
-        height: 320px;
-        margin-bottom: 30px;
-        
-    }
-
+  
     
 
     

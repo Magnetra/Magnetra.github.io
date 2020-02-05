@@ -12,19 +12,24 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,800i&display=swap">
         
     </head>
-    <body>
+    <body onload= "showBanner()">
+        <section  id="popup" class="noshow">
+           <p>Saturday= Preston Pancakes in the Park!<br>
+            9:00 a.m. Saturday at the city park pavilion.</p>
+        </section>
         <header>
 
-            <span id="pancakes"></span>
-                <script src="js/banner.js"></script>
-            </span> 
+            
               
                 <div id="logo">
-                    <img src="images/People-With-Umbrellas.jpg" alt="logoImage">
+                    <img src="images/logo.png" alt="logoImage">
                 </div>
-                <h1>Weather Vane</h1>
+                
                 <div id="motto">Pointing You in the Right Direction</div>
 
+            
+        </header>
+        <main>
             <nav>
                 <ul class="navigation">
                     
@@ -37,23 +42,53 @@
                     <li><a href="#"> Gallery</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>
             <h2 class=townOne>Preston</h2>
             <div class="contentBox">
                 <img id ="bannerImage" src="images/banneroption.jpg" alt="bannerImage">
-                 <div class="summary">
-                    <h3>Weather Summary</h3>
-                    <p>32<br>Sunny</p>
+            
+                    <div class="summary">
+                        <h3>Weather Summary</h3>
+                        <p>Currently: </p><span id="current"> Sunny</span>
+                     <p>Temperature: </p><span id="temp"> 45 &#8457;</span>
+                 <p>Feels Like: </p><span id="feelslike"> 43 &#8457;</span>
+             <p>Humidity: </p><span id="humidity"> 24%</span>
+             <p>Wind Speed: </p><span id="windspeed"> 8 mph</span></div></div>
                 </div>
             </div>
             <div class="forecast">
                 
                 <h4>5 Day Forecast</h4>
                 <br>
-
-            <p> This will contain the details for the five day forecast.<br>
-            M T W Th F Sa Su etc</p></div>
+                <div class="flex">
+                
+                    <div class="col">
+                        <span class="label">Monday</span>
+                        <img src="images/sunny.jpg" alt="sunny">
+                        <span class="data">56 / 32</span>
+                    </div>
+                    <div class="col">
+                        <span class="label">Tuesday</span>
+                        <img src="images/rain-and-sun.jpg" alt="partly-cloudy">
+                        <span class="data">52 / 40</span>
+                    </div>
+                    <div class="col">
+                        <span class="label">Wednesday</span>
+                        <img src="images/rain-and-sun.jpg" alt="partly-cloudy">
+                        <span class="data">54 / 38</span>
+                    </div>
+                    <div class="col">
+                        <span class="label">Thursday</span>
+                        <img src="images/sunny.jpg" alt="sunny">
+                        <span class="data">46 / 36</span>
+                    </div>
+                    <div class="col">
+                        <span class="label">Friday</span>
+                        <img src="images/snow.jpg" alt="snow">
+                        <span class="data">32 / 30</span>
+                    </div>
+                    
+                </div>
+           </div>
             <div class="contentbox">
 
                 <article >
@@ -79,7 +114,14 @@
                        <p class="contact2"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam,
                            </p>
                     
-    
+                           <ul class="socialmedia">
+                            <li><a href="https://twitter.com/" target="_blank"><img src="images/twitter1.jpg" alt="twitter icon"></a></li>
+                            <li><a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest1.jpg" alt="pinterest icon"></a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><img src="images/facebook1.jpg" alt="facebook icon"></a></li>
+                            <li><a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin1.jpg" alt="linkedin icon"></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagram1.jpg" alt="googleplis icon"></a> </li>
+                      
+                        </ul>
                 </div>
         </main>
         <footer>
