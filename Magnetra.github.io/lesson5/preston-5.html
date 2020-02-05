@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Vane</title>
+        <meta name="description" content="Jamie Dalton assignment for CIT230 for Preston Idaho">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css" >
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,800i&display=swap">
+        
+    </head>
+    <body onload= "showBanner()">
+        <section  id="popup" class="noshow">
+           <p>Saturday= Preston Pancakes in the Park!<br>
+            9:00 a.m. Saturday at the city park pavilion.</p>
+        </section>
+        <header>
+
+            
+              
+                <div id="logo">
+                    <img src="images/logo.png" alt="logoImage">
+                </div>
+                
+                <div id="motto">Pointing You in the Right Direction</div>
+
+            
+        </header>
+        <main>
+            <nav>
+                <ul class="navigation">
+                    
+                    <li><a class="ham" href="#">&#9776; Menu</a></li>
+                    <li><a href="#"> Home</a></li>
+                    <li><a href="#" class="active"> Preston</a></li>
+                    <li><a href="#"> Soda Springs</a></li>
+                    <li><a href="#"> Fish Haven</a></li>
+                    <li><a href="#"> Storm Center</a></li>
+                    <li><a href="#"> Gallery</a></li>
+                </ul>
+            </nav>
+            <h2 class=townOne>Preston</h2>
+            <div class="contentBox">
+                <img id ="bannerImage" src="images/banneroption.jpg" alt="bannerImage">
+            
+                    <div class="summary">
+                        <h3>Weather Summary</h3>
+                        <p>Currently: </p><span id="current"> Sunny</span>
+                     <p>Temperature: </p><span id="temp"> 45 &#8457;</span>
+                 <p>Feels Like: </p><span id="feelslike"> 43 &#8457;</span>
+             <p>Humidity: </p><span id="humidity"> 24%</span>
+             <p>Wind Speed: </p><span id="windspeed"> 8 mph</span></div></div>
+                </div>
+            </div>
+            <div class="forecast">
+                
+                <h4>5 Day Forecast</h4>
+                <br>
+                <div class="flex">
+                
+                    <div class="col">
+                        <span class="label">Monday</span>
+                        <img src="images/sunny.jpg" alt="sunny">
+                        <span class="data">56 / 32</span>
+                    </div>
+                    <div class="col">
+                        <span class="label">Tuesday</span>
+                        <img src="images/rain-and-sun.jpg" alt="partly-cloudy">
+                        <span class="data">52 / 40</span>
+                    </div>
+                    <div class="col">
+                        <span class="label">Wednesday</span>
+                        <img src="images/rain-and-sun.jpg" alt="partly-cloudy">
+                        <span class="data">54 / 38</span>
+                    </div>
+                    <div class="col">
+                        <span class="label">Thursday</span>
+                        <img src="images/sunny.jpg" alt="sunny">
+                        <span class="data">46 / 36</span>
+                    </div>
+                    <div class="col">
+                        <span class="label">Friday</span>
+                        <img src="images/snow.jpg" alt="snow">
+                        <span class="data">32 / 30</span>
+                    </div>
+                    
+                </div>
+           </div>
+            <div class="contentbox">
+
+                <article >
+                    <div class="article">
+                    <div class= "articleText">
+                    <h4>Article Title</h4>
+                    
+                    <p >by Author</p>
+                  
+                    <p>This is where an interesting article about something from the current city will be displayed. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>     
+                   <img src="images/pexels-photo-3310822.jpeg" alt="article image" class="articleimage">
+                    </div>        
+                </article>
+               
+                <div class="contactInfo">
+                    
+                    <img src="images/map.jpeg" class="map" alt="location map">
+                    <p class="contact1"> 
+                        Contact Information placed here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                       <p class="contact2"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam,
+                           </p>
+                    
+                           <ul class="socialmedia">
+                            <li><a href="https://twitter.com/" target="_blank"><img src="images/twitter1.jpg" alt="twitter icon"></a></li>
+                            <li><a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest1.jpg" alt="pinterest icon"></a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><img src="images/facebook1.jpg" alt="facebook icon"></a></li>
+                            <li><a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin1.jpg" alt="linkedin icon"></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagram1.jpg" alt="googleplis icon"></a> </li>
+                      
+                        </ul>
+                </div>
+        </main>
+        <footer>
+            &copy;Weather Vane | <a href="../index.html">Jamie Dalton</a> <br>
+            <span id="currentDate"></span>
+            <script src="js/toggleMenu.js"></script>
+        
+        </footer>
+            
+        <script type="text/javascript">_</script>
+    </body>

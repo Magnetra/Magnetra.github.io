@@ -1,0 +1,165 @@
+@media only screen and (min-width:36.5em) {
+ 
+    #bannerImage{
+       
+
+
+    }
+    h4{
+        font-size: 25px;
+        position: relative;
+        top: 1.5rem;
+        
+    }
+     
+   
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation {
+		display: flex;
+	}
+	
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: #ffff;
+	}
+    
+     .motto p {
+         margin-top:-1rem;
+     }
+     .forecast {
+         display: flex;
+         flex-direction: column;
+         height: 130px;
+        
+         align-items: center;
+         justify-content: center;
+         padding: 1rem 7rem;
+        
+         margin-bottom:20px;
+         padding-bottom:.5rem;
+         margin-top: 50px;
+         left: 10%;
+         right: 10%;
+        
+            
+        }
+       
+        .flex {
+            display: flex;
+            flex-direction: row;
+            color: white;
+            padding-right: 5px;
+            bottom: 1px solid #333;
+            border-left: 1px solid #333;
+            background-color: #014444;
+            font-size: 13px;
+            text-align: center;
+        }
+        
+        .col{
+            max-width: 150px;
+        }
+        .flex div:last-child {
+            border-right: 1px solid #333;
+        }  
+                 
+     }
+     .forecast p {
+         background-color: white;
+         border: 1px solid  #17244D;
+         font-size:1.5rem;
+         padding:.5rem;
+         display: inline;
+         text-align: center;
+         position: relative;
+         top: 10px;
+ 
+     }
+
+    
+     
+     body {
+         line-height:1.25rem;
+     }
+     
+     
+   
+         
+    
+     article {
+        border: 1px solid  #17244D;
+         display:flex;
+         flex-direction: row;
+         min-height: 275px;
+         padding:0 1.5rem;
+         
+         margin-top: 200px;
+        left: 10%;
+        right: 10%;
+        background-color: #008080;
+       
+        
+ 
+     }
+
+     .articleText{
+         float: left;
+         width: 60%;
+     }
+     .articleimage {
+         width:35%;
+         position: relative;
+        margin-top: 8rem;
+        min-width: 400px;
+        max-width: 450px;
+
+        
+     }
+        
+    
+     
+     
+     article h4 {
+         margin-bottom:0;
+         font-weight: 300;
+     }
+     article p {
+         text-align:left;
+         margin-top: -.25rem;
+     }
+     .contactinfo  {
+         display: flexbox;
+         margin-top:30px;                                                                                                                                                                                             
+         margin-bottom: -1rem;
+     }
+    
+     img.map{
+        display: inline-block;
+        max-width: 400px;
+    }
+    
+
+    .summary {
+        position:absolute;
+        left: 7rem; 
+        width:300px;
+        height:290px;
+        top:1.25rem;
+        margin:0 auto;
+   
+        
+    }
+    .summary h3{
+        font-weight: 400;
+    }
+    .summary p {
+        
+        font-size: 1 rem;
+        line-height:1.5;
+      
+    }
