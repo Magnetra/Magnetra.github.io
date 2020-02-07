@@ -145,7 +145,7 @@ nav{
     top:1.25rem;
     left:4rem;
     margin:0 auto;
-    width:7rem;
+    width:10rem;
     
    
     background:#014444;
@@ -223,11 +223,13 @@ nav{
     flex-direction: wrap;
     border:1px solid #17244D;
     background-color: #008080;
-    
+    margin-top: 7rem;
     margin-left: 10%;
     margin-right: 10%;
 }
- article h4 {
+ h5 {
+     font-weight: bold;
+     font-size: large;
     text-align: left;
     margin-bottom: -.5rem;
     
@@ -236,11 +238,11 @@ nav{
     
 }
 .articleText{
-    max-width: 100%;
+    width: 100%;
 }
 .articleimage {
-    max-width: 100%;
-    margin: 0 auto;
+    width: 100%;
+    
 }
  
  
@@ -249,7 +251,7 @@ nav{
     grid-template-columns: 1fr 1fr;
     grid-gap:.5rem;
     padding: 1.25rem;
-    margin-top:15rem;
+    margin-top:7rem;
     margin-bottom: -1rem;
     text-align:center;
     border:1px solid #17244D;
@@ -275,8 +277,9 @@ nav{
 
 
 
-img.map{
-display: none;
+.contactInfo img.map{
+    display: none;
+
 }
 
 
